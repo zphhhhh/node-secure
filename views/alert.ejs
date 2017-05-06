@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web 安全演示 </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>Web 安全演示</h1>
+
+  <p>这个页面会一直弹出 alert 弹窗。。。</p>
+  <script>
+    var i = 0;
+    while (true) {
+      i = (i + 1) % 10;
+      i = i || 1;
+      alert('第 ' + i + ' 次弹出，弹出 10 次即可不在弹出 :)')
+    }
+  </script>
+
+</body>
+
+</html>

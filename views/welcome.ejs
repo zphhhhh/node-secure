@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    欢迎你，<%= user %>！
+  </title>
+  <base href="http://baidu.com/" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <!-- 这里使用 <%= user %> 可避免反射型 XSS --> 
+    欢迎你，<%- user %>！
+  </h1>
+</body>
+
+</html>
