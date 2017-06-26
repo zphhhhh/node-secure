@@ -10,3 +10,6 @@
 
 1. 演示 XSS 攻击：`http://localhost:3000`
 2. 演示 CSRF 攻击：`http://localhost:3000/weibo` 及 `http://localhost:3000/ituring`
+
+### 相关文章
+1. 我在简书上的文章：Web安全之 XSS 攻击与防御 http://www.jianshu.com/p/2c0e0d71e533
